@@ -1,15 +1,15 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: react-ssr-template
-  title: React SSR Template
-  description: Create a website powered with Next.js
+  name: voting-app-template
+  title: Voting App Template
+  description: Create a containerised voting application
   tags:
     - recommended
-    - react
+    - containers
 spec:
-  owner: web@example.com
-  type: website
+  owner: user:guest
+  type: application
   parameters:
     - title: Provide some simple information
       required:
